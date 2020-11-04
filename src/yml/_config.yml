@@ -11,6 +11,10 @@
 # Advanced Settings
 #=include advanced.yml
 
+# Timezone settings
+timezone: Asia/Ho_Chi_Minh
+future: true
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -21,6 +25,7 @@ collections:
 paginate_path: "/page/:num/"
 show_get_theme_btn: false
 use_logo: false
+
 
 # Content paginator
 paginate_content:
