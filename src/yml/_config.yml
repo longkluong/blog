@@ -53,6 +53,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
+  - jekyll-responsive-image
 
 # Exclude my node related stuff
 exclude: [
@@ -69,3 +70,10 @@ exclude: [
 
 # Theme
 version: v3.1.0
+
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+    - width: 320
+    - width: 480
+    - width: 800

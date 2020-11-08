@@ -19,6 +19,7 @@ And this is my paragraph. I would love to write something informative.
 
 ### Let's try another Heading 3
 
+![Hello there](assets/img/blog-image.png)
 And this is another paragraph
 
 ```python
