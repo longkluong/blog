@@ -16,9 +16,15 @@
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             <figure>
                                 {% if post.optimized_image %}
-                                    <img src="{{ post.optimized_image }}">
+                                    {% comment %} <img src="{{ post.optimized_image }}"> {% endcomment %}
+                                    {% responsive_image_block %}
+                                    path: {{ post.optimized_image }}
+                                    {% endresponsive_image_block %}
                                 {% elsif post.image %}
-                                    <img src="{{ post.image }}">
+                                    {% comment %} <img src="{{ post.image }}"> {% endcomment %}
+                                    {% responsive_image_block %}
+                                    path: {{ post.image }}
+                                    {% endresponsive_image_block %}
                                 {% else %}
                                     <img src="/assets/img/off.jpg">
                                 {% endif %}
