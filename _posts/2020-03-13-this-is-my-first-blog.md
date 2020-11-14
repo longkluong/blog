@@ -4,7 +4,7 @@ layout: post
 title: This is the third blog
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: assets/img/uploads/blog3.jpg
+image: blog3.jpg
 optimized_image: 
 category: blog
 tags:

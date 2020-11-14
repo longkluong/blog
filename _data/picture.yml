@@ -1,0 +1,24 @@
+markup_presets:
+  hero:
+    formats: [webp, original]
+    widths: [200, 400, 800, 1600]
+    format_quality:
+      jpg: 80
+      png: 80
+      webp: 80
+    # dimension_attributes: true
+    attributes:
+      img: 'style="width: 100%; object-fit: cover; position: absolute" class="hero" sizes="100vw"'
+      source: 'style="width: 100%; object-fit: cover; position: absolute" class="hero" sizes="100vw"'
+
+  thumbnail:
+    formats: [webp, original]
+    widths: [200, 400, 800, 1600]
+    format_quality:
+      jpg: 80
+      png: 80
+      webp: 80
+    # dimension_attributes: true
+    attributes:
+      img: 'sizes="(min-width: 1820px) calc(16.69vw - 34px), (min-width: 1520px) calc(20vw - 34px), (min-width: 1220px) calc(25vw - 35px), (min-width: 920px) calc(33.21vw - 36px), (min-width: 620px) calc(50vw - 40px), (min-width: 380px) calc(86.36vw + 32px), calc(66.67vw + 100px)"'
+      source: 'sizes="(min-width: 1820px) calc(16.69vw - 34px), (min-width: 1520px) calc(20vw - 34px), (min-width: 1220px) calc(25vw - 35px), (min-width: 920px) calc(33.21vw - 36px), (min-width: 620px) calc(50vw - 40px), (min-width: 380px) calc(86.36vw + 32px), calc(66.67vw + 100px)"'

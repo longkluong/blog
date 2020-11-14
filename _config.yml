@@ -90,7 +90,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
-  - jekyll-responsive-image
+  - jekyll_picture_tag
 
 # Exclude my node related stuff
 exclude: [
@@ -106,16 +106,11 @@ exclude: [
   'vendor'
 ]
 
+picture:
+  source: "assets/img/uploads"
+  output: "assets/img/resized"
+  # ignore_missing_images: true
+  # disabled: true
+
 # Theme
 version: v3.1.0
-
-responsive_image:
-  template: _includes/responsive-image.html
-  sizes:
-    - width: 1920
-    - width: 1600
-    - width: 1366
-    - width: 1024
-    - width: 768
-    - width: 640
-    - width: 24        

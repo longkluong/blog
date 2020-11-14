@@ -1,7 +1,0 @@
-{% capture srcset %}
-    {% for i in resized %}
-        /{{ i.path }} {{ i.width }}w,
-    {% endfor %}
-{% endcapture %}
-{% comment %} <img src="/{{ path }}" alt="{{ alt }}" class="{{ class }}" srcset="{{ srcset | strip_newlines }}"> {% endcomment %}
-<img src="/assets/img/placeholder.png" data-src="/{{ path }}" data-srcset="{{ srcset | strip_newlines }}" class="preload" alt="{{ alt }}">

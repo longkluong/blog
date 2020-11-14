@@ -18,15 +18,9 @@
     <a href="{{ recommendation.url | prepend: site.baseurl }}" class="post-preview">
         <div class="image">
             {% if recommendation.optimized_image %}
-                {% comment %} <img src="{{ recommendation.optimized_image }}"> {% endcomment %}
-                {% responsive_image_block %}
-                path: {{ recommendation.optimized_image }}
-                {% endresponsive_image_block %}
+                <img src="{{ recommendation.optimized_image }}">
             {% elsif recommendation.image %}
-                {% comment %} <img src="{{ recommendation.image }}"> {% endcomment %}
-                {% responsive_image_block %}
-                path: {{ recommendation.image }}
-                {% endresponsive_image_block %}
+                <img src="{{ recommendation.image }}">
             {% else %}
                 <img src="/assets/img/off.jpg">
             {% endif %}

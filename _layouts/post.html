@@ -22,12 +22,7 @@
                 <p class="post-subtitle">{{ page.subtitle }}</p>
 
                 {% if page.image and paginator.activated == nil %}
-                    {% comment %} <img src="{{ page.image }}" alt="Featured image" class="post-cover"> {% endcomment %}
-                    {% responsive_image_block %}
-                        path: {{ page.image }}
-                        alt: "Featured image"
-                        class: "post-cover"
-                    {% endresponsive_image_block %}
+                    <img src="{{ page.image }}" alt="Featured image" class="post-cover">
                 {% endif %}
 
                 {% include pagination-post.html progressBar=true %}
@@ -49,15 +44,9 @@
                             <li>
                                 <a href="{{ post.url | prepend: site.baseurl }}">
                                     {% if post.optimized_image %}
-                                        {% comment %} <img src="{{ post.optimized_image }}"> {% endcomment %}
-                                        {% responsive_image_block %}
-                                        path: {{ post.optimized_image }}
-                                        {% endresponsive_image_block %}
+                                        <img src="{{ post.optimized_image }}">
                                     {% elsif post.image %}
-                                        {% comment %} <img src="{{ post.image }}"> {% endcomment %}
-                                        {% responsive_image_block %}
-                                        path: {{ post.image }}
-                                        {% endresponsive_image_block %}
+                                        <img src="{{ post.image }}">
                                     {% else %}
                                         <img src="/assets/img/off.jpg">
                                     {% endif %}
