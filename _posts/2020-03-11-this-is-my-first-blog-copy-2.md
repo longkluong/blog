@@ -12,6 +12,7 @@ tags:
 author: longluong
 paginate: true
 ---
+{:toc}
 
 ![This is image](blog3.jpg)
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
@@ -22,7 +23,7 @@ Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur puru
 
 <!--page-->
 
-## Inline HTML elements
+# Inline HTML elements
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
@@ -35,15 +36,25 @@ HTML defines a long list of available inline tags, a complete list of which can 
 
 Most of these elements are styled by browsers with few modifications on our part.
 
-<!--page-->
-
 # Heading 1
 
 ## Heading 2
 
+Yeahhh
+
+# Heading 1.1
+
+## Heading nho
+
+Wow this is content
+
 ### Heading 3
 
+A very good content indeed.
+
 #### Heading 4
+
+#### Heading 5
 
 Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
@@ -62,7 +73,9 @@ adder(2, 6);
 // > 8
 ```
 
-<!--page-->
+```html
+<div> Haha </div>
+```
 
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 

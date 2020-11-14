@@ -1,1 +1,50 @@
 @import "main";
+
+img{
+    border-radius: 5px;
+}
+
+#table-of-contents > ol {
+    @include media(">=sm") {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#table-of-contents ol, ul{
+    @include media(">=sm") {
+        padding-left: 2.5rem;
+    }
+    padding-left: 1rem;
+}
+.section-nav {
+
+    &:before{
+        content: "In this post";
+        font-weight: bold;
+        font-size: 2rem;
+        color: $themeColor;
+    }
+
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    width: auto;
+    background: #eee;
+
+    ul,ol,li{
+        list-style-type: none;
+        line-height: 1.8rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    a {
+        font-weight: 500;
+        line-height: 1rem;
+        text-decoration: none;
+        color: $primaryDark;
+    }
+}

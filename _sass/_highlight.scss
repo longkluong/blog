@@ -5,6 +5,7 @@ pre {
   color: $accentDark;
   margin: rem(30px) 0;
   font-size: rem(14px);
+  border-radius: 5px;
 
   @include media(">=sm") {
     font-size: rem(16px);
@@ -20,6 +21,7 @@ pre {
       overflow-x: scroll;
     }
   }
+
 
   span {
     line-height: 1.5rem;

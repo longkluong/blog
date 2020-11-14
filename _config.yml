@@ -63,6 +63,17 @@ paginate_path: "/page/:num/"
 show_get_theme_btn: false
 use_logo: false
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
+
+# Table of contents      
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: true
 
 # Content paginator
 paginate_content:
@@ -91,6 +102,7 @@ plugins:
   - jekyll-paginate
   - jekyll-paginate-content
   - jekyll_picture_tag
+  - jekyll-toc
 
 # Exclude my node related stuff
 exclude: [
@@ -109,7 +121,7 @@ exclude: [
 picture:
   source: "assets/img/uploads"
   output: "assets/img/resized"
-  # ignore_missing_images: true
+  ignore_missing_images: true
   # disabled: true
 
 # Theme
