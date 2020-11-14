@@ -72,7 +72,7 @@ exclude: [
 picture:
   source: "assets/img/uploads"
   output: "assets/img/resized"
-  # ignore_missing_images: true
+  ignore_missing_images: true
   # disabled: true
 
 # Theme
