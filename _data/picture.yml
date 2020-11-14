@@ -1,6 +1,6 @@
 markup_presets:
   hero:
-    formats: [webp, original]
+    # formats: [webp, original]
     widths: [200, 400, 800, 1600]
     format_quality:
       jpg: 80
@@ -12,7 +12,7 @@ markup_presets:
       source: 'style="width: 100%; object-fit: cover; position: absolute" class="hero" sizes="100vw"'
 
   thumbnail:
-    formats: [webp, original]
+    # formats: [webp, original]
     widths: [200, 400, 800, 1600]
     format_quality:
       jpg: 80
