@@ -24,7 +24,7 @@
                 {% picture recommendation {{ recommendation.image }} %}
                 <!-- <img src="{{ recommendation.image }}"> -->
             {% else %}
-                <img src="/assets/img/off.jpg">
+                <img src="/assets/img/off.jpg" alt="Error loading image">
             {% endif %}
         </div>
         <h3 class="title">{{ recommendation.title }}</h3>
