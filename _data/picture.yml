@@ -10,6 +10,7 @@ markup_presets:
     attributes:
       img: 'style="width: 100%; object-fit: cover; position: absolute" class="hero" sizes="100vw"'
       source: 'style="width: 100%; object-fit: cover; position: absolute" class="hero" sizes="100vw"'
+      alt: "Featured post"
 
   thumbnail:
     # formats: [webp, original]

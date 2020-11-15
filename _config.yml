@@ -41,7 +41,7 @@ two_columns_layout: false
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://www.luongkimlong.com" # the base hostname & protocol for your site
 google_analytics: "G-T8TRJKYH1Q"  
 language: "en"
 categories_folder: category
