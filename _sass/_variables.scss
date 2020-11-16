@@ -10,7 +10,8 @@ $texts: map-get($theme, texts) !default;
 
 // Breakpoints
 $breakpoints: (
-  sm: 37.5rem
+  sm: 37.5rem,
+  md: 50rem
 );
 
 // Margins

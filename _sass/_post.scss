@@ -116,7 +116,7 @@
     @include mainFont(300);
     font-size: rem(13px);
     letter-spacing: 0;
-    color: darken($lightGray, 30%);
+    color: darken($lightGray, 70%);
     margin: 0 auto;
 
     @include media(">=sm") {

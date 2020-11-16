@@ -3,6 +3,44 @@ body {
   height: 100%;
 }
 
+.header-nav {
+  display: none;
+
+  @include media(">=md") {
+    display: inline-block;
+    font-size: 1.2rem;
+    height: rem(32px);
+    line-height: rem(32px);
+    float: right;
+  }
+
+  ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+
+    li {
+      display: inline-block;
+      margin: 0 5px 0 5px;
+  
+      a {
+        padding: 3px 15px 3px 15px;
+        text-decoration: none;
+        color: $accentDark;
+        font-family: "Nunito", Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.15rem;
+
+        &:hover{
+          color: $themeColor;
+        }
+      }
+    }
+  }
+}
+
 .bar-header {
   background-color: $primaryDark;
   padding: rem(10px) rem(15px);
@@ -120,11 +158,23 @@ body.light:not(.main-page) {
     .icon-search,
     .icon-menu {
       fill: $primaryDark;
+
+      &:hover{
+        fill: $themeColor;
+      }
     }
 
     .logo a,
     .version {
       color: $primaryDark;
+    }
+
+    .link-text {
+      color: $primaryDark; 
+
+      &:hover{
+        color: $themeColor;
+      }
     }
   }
 }
