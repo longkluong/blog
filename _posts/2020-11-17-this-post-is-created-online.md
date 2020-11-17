@@ -21,7 +21,7 @@ And this is the useful content for the title
 
 And content
 
-![Hihihi](dd20f22f-cd09-4fa7-a425-0c6cbd0d7e92.jpeg "Yeah, image title")
+![](dd20f22f-cd09-4fa7-a425-0c6cbd0d7e92.jpeg)
 
 ### And subtitle
 
