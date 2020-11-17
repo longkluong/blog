@@ -1,11 +1,11 @@
 ---
+optimized_image: /assets/img/uploads/henry-ascroft-7ofnb7novjw-unsplash.jpg
 date: 2020-11-17 09:19:05
 layout: post
 title: This post is created online
 subtitle: Using my iPad
 description: This is the post created using iPad
-image: /assets/img/uploads/henry-ascroft-7ofnb7novjw-unsplash.jpg
-optimized_image: /assets/img/uploads/henry-ascroft-7ofnb7novjw-unsplash.jpg
+image: thumb-1920-1039991.jpg
 category: photography
 tags:
   - Test
@@ -21,7 +21,7 @@ And this is the useful content for the title
 
 And content
 
-![](dd20f22f-cd09-4fa7-a425-0c6cbd0d7e92.jpeg)
+![This is an image](thumb-1920-1039991.jpg)
 
 ### And subtitle
 
