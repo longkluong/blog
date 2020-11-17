@@ -1,5 +1,4 @@
 ---
-optimized_image: /assets/img/uploads/henry-ascroft-7ofnb7novjw-unsplash.jpg
 date: 2020-11-17 09:19:05
 layout: post
 title: This post is created online
