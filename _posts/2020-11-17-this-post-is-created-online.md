@@ -4,7 +4,8 @@ layout: post
 title: This post is created online
 subtitle: Using my iPad
 description: This is the post created using iPad
-image: /assets/img/uploads/dd20f22f-cd09-4fa7-a425-0c6cbd0d7e92.jpeg
+image: /assets/img/uploads/henry-ascroft-7ofnb7novjw-unsplash.jpg
+optimized_image: /assets/img/uploads/henry-ascroft-7ofnb7novjw-unsplash.jpg
 category: photography
 tags:
   - Test
