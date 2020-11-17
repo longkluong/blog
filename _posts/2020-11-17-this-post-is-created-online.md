@@ -21,8 +21,8 @@ And this is the useful content for the title
 
 And content
 
-![](/assets/img/uploads/dd20f22f-cd09-4fa7-a425-0c6cbd0d7e92.jpeg "Yeah, image title")
+![Hihihi](dd20f22f-cd09-4fa7-a425-0c6cbd0d7e92.jpeg "Yeah, image title")
 
-### And sub title
+### And subtitle
 
 And content.
