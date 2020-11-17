@@ -14,7 +14,7 @@ footer {
   background: $accentDark;
   padding: rem(20px) rem(25px);
   margin-top: rem(50px);
-  margin-bottom: rem(180px);
+  margin-bottom: rem(120px);
   @include mainFont(300);
 
   @include media(">=sm") {
@@ -53,10 +53,10 @@ footer {
 
   a {
     display: inline-block;
-    fill: darken($lightGray, 70%);;
+    fill: #808080;
     transition: all 0.3s ease;
     text-decoration: none;
-    color: darken($lightGray, 70%);;
+    color: #808080;
     
     &:hover {
       fill: $themeColor;
@@ -78,12 +78,6 @@ footer {
     a {
       text-decoration: none;
       font-size: rem(15px);
-
-      @include media("<=sm") {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        min-width: 48px;
-      }
       
       &:hover {
         text-decoration: underline;

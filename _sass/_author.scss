@@ -25,7 +25,7 @@
   }
 
   a {
-    fill: darken($lightGray, 70%);
+    fill: darken($lightGray, 30%);
     text-decoration: none;
     border: none;
     transition: all 0.3s;
@@ -49,7 +49,7 @@
   }
 
   .def {
-    color: darken($lightGray, 70%);
+    color: gray;
     font-size: rem(18px);
     @include mainFont(300);
     margin: rem(10px);
