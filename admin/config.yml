@@ -58,15 +58,15 @@ collections:
         widget: "string"
       - label: "Featured Image"
         name: "image"
-        widget: "image"
+        widget: "string"
         allow_multiple: false
         required: false
-      - label: "Optimized Image"
-        name: "optimized_image"
-        widget: "image"
-        allow_multiple: false
-        required: false
-        hint: "You can set an optimized image version to show on the home page"
+      # - label: "Optimized Image"
+      #   name: "optimized_image"
+      #   widget: "image"
+      #   allow_multiple: false
+      #   required: false
+      #   hint: "You can set an optimized image version to show on the home page"
       - label: "Category"
         name: "category"
         widget: "relation"
