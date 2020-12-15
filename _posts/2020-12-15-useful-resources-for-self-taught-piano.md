@@ -4,6 +4,7 @@ layout: post
 title: Useful resources for self-taught piano
 description: In this post, I list down every resources that I use to learn
   piano, all by my self
+image: kawai-piano
 category: "{{slug}}"
 author: longluong
 paginate: false
