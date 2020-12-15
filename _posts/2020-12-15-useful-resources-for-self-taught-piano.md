@@ -17,6 +17,8 @@ paginate: false
 
 [Henle](https://www.henle.de/) is a great source to discover which piece to play because they have a tool to classify piano books and pieces by difficulty.
 
+[Piano Syllabus](http://pianosyllabus.com/) is the place to search for pieces by grade.
+
 ## To-play list
 
 Bach's Minuet in C major
