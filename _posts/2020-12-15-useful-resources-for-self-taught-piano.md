@@ -8,10 +8,14 @@ category: "{{slug}}"
 author: longluong
 paginate: false
 ---
-## The practising schedule
+## The practicing schedule
 
-## Course books
+## Coursebooks
 
 ## Which piece to play based on difficulty
 
 [Henle](https://www.henle.de/) is a great source to discover which piece to play because they have a tool to classify piano books and pieces by difficulty.
+
+## To-play list
+
+Bach's Minuet in C major
