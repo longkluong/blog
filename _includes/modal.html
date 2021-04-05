@@ -16,9 +16,9 @@
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             <figure>
                                 {% if post.optimized_image %}
-                                    {% picture post.optimized_image %}
+                                    {% comment %} {% picture post.optimized_image %} {% endcomment %}
                                 {% elsif post.image %}
-                                    {% picture post.image %}
+                                    {% comment %} {% picture post.image %} {% endcomment %}
                                 {% else %}
                                     <img src="/assets/img/off.jpg" alt="Error loading image">
                                 {% endif %}

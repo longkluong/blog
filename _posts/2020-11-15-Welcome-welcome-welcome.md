@@ -4,8 +4,7 @@ layout: post
 title: Welcome to my personal blog
 subtitle: 
 description: 
-image: blog1.jpg
-optimized_image: 
+image: assets/img/kawai-piano.jpg
 category: blog
 tags:
   - sharing
@@ -15,6 +14,8 @@ paginate: false
 ---
 
 ## Welcome
+Just test the ability of Cloudinary
+![Hehee](assets/img/kawai-piano.jpg)
 
 
 

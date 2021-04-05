@@ -102,8 +102,8 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
-  - jekyll_picture_tag
   - jekyll-toc
+  - jekyll-cloudinary
 
 # Exclude my node related stuff
 exclude: [
@@ -119,11 +119,18 @@ exclude: [
   'vendor'
 ]
 
-picture:
-  source: "assets/img/uploads"
-  output: "assets/img/resized"
-  ignore_missing_images: true
-  # disabled: true
 
 # Theme
 version: v3.1.0
+
+#Cloudinary
+cloudinary:
+  cloud_name: longluong
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 860px) 800px, calc(92.59vw + 22px)"
